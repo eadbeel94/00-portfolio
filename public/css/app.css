@@ -1,0 +1,85 @@
+.gradient1{
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@font-face {
+  font-family: 'yanone1';
+  src: url('/font/yanone.ttf');
+}
+@font-face {
+  font-family: 'poppins1';
+  src: url('/font/poppins.ttf');
+}
+
+/*--------------- inicio ---------------*/
+
+.Mys_img0{
+  top: 30%; width: 100%;
+}
+.Mys_img1{
+  width: 200px; height: 200px; align-self: center;
+}
+.Mys_sub0{
+  font-size: 300px;
+}
+.Mys_sub1{
+  font-size: 50px; font-family: poppins1; margin-bottom: 0rem;
+}
+.Mys_sub2{
+  font-size: 50px; font-family: yanone1;
+}
+.Mys_sub3{
+  font-size: 40px; font-family: poppins1; margin-bottom: 0rem;
+}
+.Mys_sub4{
+  font-size: 40px; font-family: yanone1;
+}
+.Mys_sub5{
+  font-size: 250px;
+}
+.Mys_btn0{
+  height: 100vh; width: 100%; border-width: 2px;
+}
+.Mys_card0{
+  background-color: rgba(76, 161, 175,0.2); text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .Mys_sub0 {
+    font-size: 150px;
+  }
+  .Mys_sub1 {
+    font-size: 40px;
+  }
+  .Mys_sub2 {
+    font-size: 30px;
+  }
+  .Mys_sub3 {
+    font-size: 20px;
+  }
+  .Mys_sub4 {
+    font-size: 20px;
+  }
+  .Mys_img0{
+    top: 2%;
+  }
+  .Mys_img1{
+    width: 100px; height: 100px; 
+  }
+  .Mys_sub5 {
+    font-size: 120px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(60,80,100);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(76,161,175);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(5,200,200);
+}

@@ -1,0 +1,104 @@
+.Mys_imglogo0{
+    height: 80px; width: 80px;
+  }
+  .Mys_headerlogo0{
+    font-family: yanone1; width: 250px;
+  }
+  .Mys_btngrp0{
+    height: 100px; font-family: yanone1;
+  }
+  .Mys_btngrp0 button{
+    font-size: 30px;
+  }
+  .Mys_imgcircuit0{
+    height: auto; max-width: 1920px; max-height: 400px; width: 100%;
+  }
+  .Mys_imgcircuit1{
+    overflow: hidden; height: 100%; width: 100%;
+  }
+  .Mys_headertext1{
+    height: 50px; text-align: center; font-family: yanone1; font-size: 34px; color: white;
+  }
+  .Mys_headertext1 i{
+    font-size: 24px;     vertical-align: text-top;
+  }
+  .Mys_headertext2{
+    text-align: justify; font-family: 'poppins1'; font-style: normal; font-size: 20px; animation-duration: 2s;
+  }
+  .Mys_text3{
+    text-align: left; font-family: 'poppins1'; font-style: normal;  font-size: 16px; animation-duration: 2s;
+  }
+  .Mys_sliderctn1{
+    background-color: transparent;width: 100%; height: auto;max-height: 800px;border-width: 0px 0px 0px 0px;
+  }
+  .Mys_sliderimg1{
+    height: auto; align-self: center;
+  }
+  .Mys_sliderimg2{
+    position: absolute; height: 100%; position: absolute; top: 50%; align-self: center;
+  }
+  .Mys_sliderimg3{
+    opacity: 0.8; font-family: yanone1; font-size: 50px; overflow: hidden;
+  }
+  .Mys_sliderimg4{
+    height: 50px; width: 50px; align-self: center;
+  }
+  .Mys_container3{
+    height: 90%; display: flex; justify-content: center;
+  }
+  .Mys_container4{
+    font-family: poppins1; font-size: 18px;
+  }
+  .Mys_container5{
+    display: flex; justify-content: center; text-align: center; height: 100%;
+  }
+  .Mys_imglogo1{
+    height: 200px; width: 190px; align-self: center;
+  }
+  .Mys_cardcont3{
+    display: flex; justify-content: center; height: 100%;
+  }
+  .Mys_imglogo2{
+    width: 70px; height: 70px; align-self: center;
+  }
+  .Mys_imglogo3{
+    height: 44px; width: 40px; align-self: center; padding-top: 0.5rem;
+  }
+  .Mys_footback{
+    min-height: 100px; font-family: poppins1;
+  }
+  .Mys_footicon1{
+    height: 60px; width: 60px;
+  }
+  .Mys_footicon1 i{
+    font-size: 36px;
+  }
+  
+  .Mys_sliderimg6{
+    background-color: transparent;width: 100%; height: auto;max-height: 400px;
+  }
+  .Mys_sliderimg7{
+    position: absolute; height: 100%; position: absolute; top: 70%; align-self: center;
+  }
+  .Mys_sliderimg8{
+    opacity: 0.8; font-family: yanone1; font-size: 50px; overflow: hidden;
+  }
+  
+  
+  
+  @media screen and (max-width: 1000px) {
+    .Mys_sliderimg1 {
+      width: 100%
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .Mys_headertext0 {
+      text-align: center;
+    }
+    .Mys_sliderimg3{
+      font-size: 30px;
+    }
+    .Mys_btngrp0 button{
+      font-size: 26px;
+    }
+  }
